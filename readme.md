@@ -19,6 +19,7 @@ nohup ./rssbot datafile ${TELEGRAM-BOT-TOKEN} &
 
 ### client
 the following is each command and function of the bot:
+
 | command      | function              | parameter                                     |
 | :---         | :---                  | :---                                          |
 | list         | show subscribe list   | /list (${Channel-Username}) (display-url)     |
@@ -27,22 +28,26 @@ the following is each command and function of the bot:
 
 
 ## Compilation
-if you want to compile it by yourself, you should download `source` and prepare a `rust&cargo` environment.
+if you want to compile it by yourself, you should download `source` and prepare a `Rust & Cargo` environment.
 
 ### download source
 ```bash
 git clone https://github.com/nanqinlang-mogic/RustRssBot.git
 ```
 
-### rust&cargo environment
+### Rust & Cargo environment
 advise you to use [rustup](https://www.rustup.rs/), the installation is in [there](https://github.com/rust-lang-nursery/rustup.rs/#other-installation-methods).
 ```bash
 curl https://sh.rustup.rs -sSf | sh -s -- --default-toolchain nightly
 ```
 
 ### start compilation
+install dependences:
 ```bash
 apt-get install -y openssl pkg-config libssl-dev
+```
+then start compile it:
+```bash
 cargo build --release
 ```
-then, the implement file is in ~/target/release/rssbot
+then, the implement file is in `~/target/release/rssbot`
