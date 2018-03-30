@@ -32,13 +32,14 @@ if you want to compile it by yourself, you should download `source` and prepare 
 
 ### download source
 ```bash
-git clone https://github.com/nanqinlang-mogic/RustRssBot.git
+git clone --branch=30.Dec https://github.com/nanqinlang-mogic/RustRssBot.git
 ```
 
 ### Rust & Cargo environment
 advise you to use [rustup](https://www.rustup.rs/), the installation is in [there](https://github.com/rust-lang-nursery/rustup.rs/#other-installation-methods).
 ```bash
 curl https://sh.rustup.rs -sSf | sh -s -- --default-toolchain nightly
+source $HOME/.cargo/env
 ```
 
 ### start compilation
