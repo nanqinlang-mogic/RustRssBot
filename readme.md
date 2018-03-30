@@ -44,7 +44,7 @@ curl https://sh.rustup.rs -sSf | sh -s -- --default-toolchain nightly
 ### start compilation
 install dependences:
 ```bash
-apt-get install -y openssl pkg-config libssl-dev
+apt-get install -y openssl libssl-dev pkg-config
 ```
 then start compile it:
 ```bash
