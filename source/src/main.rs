@@ -35,7 +35,7 @@ mod opml;
 fn main() {
 	let args: Vec<String> = std::env::args().collect();
 	if args.len() < 3 {
-		eprintln!("usage: ./rustrssbot ${DATAFILE-name} ${TELEGRAM-BOT-TOKEN}", args[0]);
+		eprintln!("usage: {} $DATAFILE-name $TELEGRAM-BOT-TOKEN", args[0]);
 		std::process::exit(1);
 	}
 	let datafile = &args[1];
