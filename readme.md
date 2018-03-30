@@ -12,7 +12,7 @@ Origin Project: https://github.com/iovxw/rssbot
 ### server
 to make a rss bot, you should run these to make it server.
 ```bash
-wget https://github.com/nanqinlang-mogic/RustRssBot/releases/download/1.0/rssbot
+wget https://github.com/nanqinlang-mogic/RustRssBot/releases/download/1.1/rssbot
 chmod +x rssbot
 nohup ./rssbot datafile ${TELEGRAM-BOT-TOKEN} &
 ```
@@ -32,7 +32,7 @@ if you want to compile it by yourself, you should download `source` and prepare 
 
 ### download source
 ```bash
-git clone https://github.com/nanqinlang-mogic/RustRssBot.git
+git clone --branch=31.March https://github.com/nanqinlang-mogic/RustRssBot.git
 ```
 
 ### Rust & Cargo environment
